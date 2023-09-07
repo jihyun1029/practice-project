@@ -25,7 +25,7 @@ tr:nth-child(even) {
 	$(function() {
 		$("button").click(function() {
 			location.href="/gallery/registform";
-		})
+		});
 	});
 </script>
 </head>
@@ -47,20 +47,13 @@ tr:nth-child(even) {
     <td>Jill</td>
     <td>Smith</td>
     <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>Adam</td>
-    <td>Johnson</td>
-    <td>67</td>
+    <td>50</td>
+    <td>50</td>
+    <td>50</td>
   </tr>
   <tr>
   	<td colspan="6">
-  		<button>글쓰기</button>
+  		<button>글 쓰기</button>
   	</td>
   </tr>
 </table>

@@ -32,7 +32,7 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		
-		// 4단계 : 현재날짜를 결과로 저장, 뷰 처리는 jsp가 담당하므로, 여기서 생성된 데이터를 jsp까지 죽지 않고가려가려면, request객체에 저장..
+		// 4단계 : 현재날짜를 결과로 저장, 뷰 처리는 jsp가 담당하므로, 여기서 생성된 데이터를 jsp까지 죽지 않고 가져가려면, request로 저장..
 		model.addAttribute("serverTime", formattedDate );
 		
 		// out.print("<script>"); // 디자인을 담당하는 순간부터 뷰가 되버린다.. Controller + View = 모델1
